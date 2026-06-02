@@ -1,0 +1,19 @@
+{
+  "name": "block_text_drawer",
+  "description": "Draw text in the world using blocks with undo support.",
+  "version": 1,
+  "globalsPath": "globals.js",
+  "commands": [
+    {
+      "label": "block_text",
+      "permission": "vibe.block_text",
+      "path": "commands/block_text.js"
+    },
+    {
+      "label": "block_text_undo",
+      "permission": "vibe.block_text",
+      "path": "commands/block_text_undo.js"
+    }
+  ],
+  "events": []
+}
