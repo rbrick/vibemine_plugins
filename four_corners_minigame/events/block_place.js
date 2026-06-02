@@ -1,0 +1,1 @@
+(function(ctx, state) { if (!state.arena || !ctx.isCancellable()) return; var b = ctx.getBlock(); if (state.helpers.inArenaBlock(state, b)) { ctx.setCancelled(true); var p = ctx.getPlayer(); if (p) p.sendMessage('&cYou cannot build on the Four Corners arena.'); } })

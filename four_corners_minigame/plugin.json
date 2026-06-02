@@ -1,0 +1,31 @@
+{
+  "name": "four_corners_minigame",
+  "description": "Four Corners minigame with arena build clearance and Rank Permissions integration.",
+  "globalsPath": "globals.js",
+  "version": 16,
+  "commands": [
+    {
+      "label": "four_corners",
+      "permission": "vibe.four_corners",
+      "path": "commands/four_corners.js"
+    }
+  ],
+  "events": [
+    {
+      "event": "player_move",
+      "path": "events/player_move.js"
+    },
+    {
+      "event": "player_quit",
+      "path": "events/player_quit.js"
+    },
+    {
+      "event": "block_break",
+      "path": "events/block_break.js"
+    },
+    {
+      "event": "block_place",
+      "path": "events/block_place.js"
+    }
+  ]
+}

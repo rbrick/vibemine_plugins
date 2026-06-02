@@ -1,0 +1,1 @@
+(function(ctx, state) { if (!state.game.active) return; var p = ctx.getPlayer(); if (!p) return; if (state.game.alive[p.getName()]) state.helpers.eliminate(state, p, 'You disconnected.'); delete state.joined[p.getName()]; })
